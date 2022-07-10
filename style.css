@@ -1,0 +1,42 @@
+* {
+    transition: all 0.25s;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: steelblue;
+    background-image: url(https://i.ibb.co/2qSfHHK/minimalist-green-chemistry-presentation-rojd17x5jfzcueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+}
+
+#encabezado{
+    width: 60vw;
+    min-height: 200px;
+    display: fex;
+    justify-content: center;
+    align-items:  center;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 42px;
+}
+
+.opcion{
+    width: 50vw;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 42px;
+}
+
+.opcion:hover{
+    background: lightcyan;
+}
