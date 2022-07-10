@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 120vh;
+    font-size: 120%
 }
 
 #encabezado{
