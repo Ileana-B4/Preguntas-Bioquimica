@@ -1,4 +1,4 @@
-cargarPregunta(0)
+cargarPregunta(2)
 
 function cargarPregunta(index){
     objetoPregunta = baseDePreguntas[index]
@@ -17,8 +17,8 @@ function cargarPregunta(index){
     document.getElementById("opcion-4").innerHTML = opciones[3]
 }
 
-async function seleccionaropcion(index){
-    let validez = opciones[index] == objetoPregunta.respuesta
+async function seleccionarOpcion(index){
+    let validezRespuesta = opciones[index] == objetoPregunta.respuesta
     if(validezRespuesta){
         await Swal.fire({
             title: "Respuesta correcta",
@@ -26,13 +26,12 @@ async function seleccionaropcion(index){
             icon: "success",
         });
     }else{
-        await Swal.Fire({
+        await Swal.fire({
             title: "Respuesta Incorrecta",
-            text: 'La repuesta ha sido ${objetoPregunta.respuesta}',
+            text: `La repuesta ha sido "${objetoPregunta.respuesta}"`,
             icon: "error", 
         });  
     }
-
 }
 
 

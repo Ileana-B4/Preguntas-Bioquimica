@@ -6,7 +6,7 @@ body{
     margin:0;
     padding:0;
     background: steelblue;
-    background-image: url(https://i.ibb.co/2qSfHHK/minimalist-green-chemistry-presentation-rojd17x5jfzcueil.jpg);
+    background-image: url(https://i.ibb.co/dDHNqQ2/e054a41a3029ab009a35d09c8dc3ee92.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -24,7 +24,7 @@ body{
     display: fex;
     justify-content: center;
     align-items:  center;
-    background: white;
+    background: rgb(131, 203, 203);
     border-radius: 10px;
     margin: 10px;
     padding: 42px;
@@ -32,12 +32,12 @@ body{
 
 .opcion{
     width: 50vw;
-    background: white;
+    background: rgb(169, 227, 169);
     border-radius: 10px;
     margin: 10px;
     padding: 42px;
 }
 
 .opcion:hover{
-    background: lightcyan;
+    background: rgb(24, 215, 199);
 }
